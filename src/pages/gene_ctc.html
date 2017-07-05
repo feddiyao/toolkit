@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+  <head>
+    <title>衡道医学</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../../plugins/jquery-weui/dist/lib/weui.css">
+    <link rel="stylesheet" href="../../plugins/jquery-weui/dist/css/jquery-weui.css">
+    <link rel="stylesheet" href="../../plugins/jquery-weui/dist/demos/css/demos.css">
+    <link rel="stylesheet" href="../../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/pages.css"/>
+
+  </head>
+</head>
+<body ontouchstart>
+<header class='demos-header'>
+  <h1 class="demos-title">循环肿瘤细胞检测</h1>
+</header>
+<div class="page__bd" id="page__bd">
+  <div class="weui-panel weui-panel_access" v-for="item in content">
+    <div class="weui-panel__bd">
+      <div class="weui-media-box weui-media-box_text">
+        <h4 class="weui-media-box__title show-inform" v-bind:name="item.name">
+          {{item.name}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup>
+        </h4>
+        <div>
+          <div class="weui-media-box__desc inline">样本类型：</div>
+          <div class="weui-media-box__desc with-sup show-inform inline" v-bind:name="item.type">
+            <span>{{item.type}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup></span>
+          </div>
+        </div>
+        <div>
+          <div class="weui-media-box__desc inline">检测周期：</div>
+          <div class="weui-media-box__desc inline">{{item.testPeriod}}</div>
+        </div>
+      </div>
+      <div class="weui-panel__ft" v-if="item.testGene != 'none'">
+        <a v-bind:href="'gene_test_gene.html?name=' + item.name" class="weui-cell weui-cell_access weui-cell_link">
+          <div class="weui-cell__bd">检测基因</div>
+          <span class="weui-cell__ft"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../../plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
+<script src="../../plugins/jquery-weui/dist/lib/fastclick.js"></script>
+<script src="../../plugins/vue/dist/vue.min.js"></script>
+<script src="../assets/js/gene_ctc.js"></script>
+<script src="../../plugins/jquery-weui/dist/js/jquery-weui.js"></script>
+</body>
+</html>

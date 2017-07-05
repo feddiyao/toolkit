@@ -1,0 +1,576 @@
+{
+  "chemotherapy": [
+      {
+        "name": "BRCA1 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)"
+      },
+      {
+        "name": "CDA 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "吉西他滨"
+      },
+      {
+        "name": "CYP2C8*3 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "抗微管类(紫杉醇/多西他赛/长春瑞滨)"
+      },
+      {
+        "name": "CYP2C9*3 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "环磷酰胺"
+      },
+      {
+        "name": "CYP2C19*2 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "环磷酰胺"
+      },
+      {
+        "name": "CYP2D6*4 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "他莫昔芬"
+      },
+      {
+        "name": "CYP2D6*5 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "他莫昔芬"
+      },
+      {
+        "name": "CYP2D6*10 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "他莫昔芬"
+      },
+      {
+        "name": "CYP3A4*4 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "依托泊苷"
+      },
+      {
+        "name": "CYP19A1 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "阿拉曲唑，来曲唑"
+      },
+      {
+        "name": "DPYD 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "氟尿嘧啶(5-FU/卡培他滨/替加氟)"
+      },
+      {
+        "name": "ERCC1 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)"
+      },
+      {
+        "name": "ERCC1 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)"
+      },
+      {
+        "name": "ERCC2 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)"
+      },
+      {
+        "name": "GSTM1 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)"
+      },
+      {
+        "name": "GSTP1 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)，多柔比星，表柔比星，依托泊苷"
+      },
+      {
+        "name": "MDR1(C3435T) 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "表柔比星，阿霉素，甲氨蝶呤，依托泊苷"
+      },
+      {
+        "name": "MDR1(G2677T) 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "抗微管类(紫杉醇/多西他赛/长春瑞滨)"
+      },
+      {
+        "name": "MSI 微卫星不稳定",
+        "type": "组织/蜡块/石蜡切片/血液",
+        "medicine": "结直肠癌预后"
+      },
+      {
+        "name": "MTHFR(A1298C) 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "氟尿嘧啶(5-FU/卡培他滨/替加氟)，甲氨蝶呤，环磷酰胺"
+      },
+      {
+        "name": "MTHFR(C677T) 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "氟尿嘧啶(5-FU/卡培他滨/替加氟)，甲氨蝶呤，环磷酰胺"
+      },
+      {
+        "name": "MTRR 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "甲氨蝶呤"
+      },
+      {
+        "name": "NQO1*2 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "丝裂霉素"
+      },
+      {
+        "name": "RRM1 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "吉西他滨"
+      },
+      {
+        "name": "STMN1 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "抗微管类(紫杉醇/多西他赛/长春瑞滨)"
+      },
+      {
+        "name": "TOP2A 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "依托泊苷，多柔比星，表柔比星"
+      },
+      {
+        "name": "TS 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "氟尿嘧啶(5-FU/卡培他滨/替加氟)，培美曲塞"
+      },
+      {
+        "name": "TS*2 多态性",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "氟尿嘧啶(5-FU/卡培他滨/替加氟)，培美曲塞"
+      },
+      {
+        "name": "TUBB3 表达水平",
+        "type": "组织/蜡块/石蜡切片",
+        "medicine": "抗微管类(紫杉醇/多西他赛/长春瑞滨)"
+      },
+      {
+        "name": "UGT1A1*6 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)，伊立替康"
+      },
+      {
+        "name": "UGT1A1*28 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)，伊立替康"
+      },
+      {
+        "name": "XPC 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "顺铂"
+      },
+      {
+        "name": "XRCC1 多态性",
+        "type": "血液/唾液/口腔黏膜",
+        "medicine": "铂类(顺铂/卡铂/奥沙利铂)"
+      }
+    ],
+
+  "ctc": [
+    {
+      "name": "CTC 计数",
+      "type": "外周血1",
+      "testPeriod": "6个工作日",
+      "testGene": "none"
+    },
+    {
+      "name": "CTC 用药",
+      "type": "外周血1",
+      "testPeriod": "20个工作日"
+    }
+  ],
+
+  "targeted_drug": [
+    {
+      "name": "BRAF(V600E) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌/鼻咽癌/头颈部肿瘤"
+        },
+        {
+          "name": "威罗替尼，达拉非尼，曲美替尼",
+          "cancer": "黑色素瘤"
+        }
+      ]
+    },
+    {
+      "name": "BRCA1/2 突变(胚系)",
+      "type": "血液",
+      "medicines": [
+        {
+          "name": "奥拉帕尼",
+          "cancer": "乳腺癌/卵巢癌/胸腺癌/前列腺癌"
+        }
+      ]
+    },
+    {
+      "name": "EGFR 表达水平",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+        "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+        "cancer": "结直肠癌/鼻咽癌/头颈部肿瘤"
+        }
+      ]
+    },
+    {
+      "name": "EGFR(Exon18/19/20/21) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "吉非替尼，厄洛替尼，埃克替尼，AZD9291",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "EGFR(T790M) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "吉非替尼，厄洛替尼，埃克替尼，AZD9291",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "EML4-ALK 融合",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "色瑞替尼，克唑替尼，艾乐替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "HER2 染色体扩增",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "曲妥珠单抗，拉帕替尼，T-DM1",
+          "cancer": "乳腺癌，食管癌"
+        }
+      ]
+    },
+    {
+      "name": "KIT(Exon9/11/13/17) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "伊马替尼",
+          "cancer": "GIST/皮肤纤维肉瘤/白血病"
+        },
+        {
+          "name": "索拉非尼",
+          "cancer": "肾癌/肝癌/甲状腺癌"
+        },
+        {
+          "name": "阿昔替尼",
+          "cancer": "肾癌"
+        }
+      ]
+    },
+    {
+      "name": "KRAS(Exon2/3/4) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "吉非替尼，厄洛替尼，埃克替尼",
+          "cancer": "肺癌"
+        },
+        {
+          "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌/鼻咽癌/头颈部肿瘤"
+        },
+        {
+          "name": "依维莫司",
+          "cancer": "肾癌/胰腺癌/乳腺癌"
+        },
+        {
+          "name": "坦罗莫司",
+          "cancer": "肾癌"
+        }
+      ]
+    },
+    {
+      "name": "MET 表达水平",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "克唑替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "NRAS(Exon2/3/4) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌/鼻咽癌/头颈部肿瘤"
+        }
+      ]
+    },
+    {
+      "name": "PDGFRα(Exon12/18) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "伊马替尼",
+          "cancer": "GIST/皮肤纤维肉瘤/白血病"
+        },
+        {
+          "name": "舒尼替尼",
+          "cancer": "肾癌/GIST/胰腺癌"
+        }
+      ]
+    },
+    {
+      "name": "PDGFRβ 表达水平",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "舒尼替尼",
+          "cancer": "肾癌/GIST/胰腺癌"
+        },
+        {
+          "name": "索拉非尼",
+          "cancer": "肾癌/肝癌/甲状腺癌"
+        },
+        {
+          "name": "阿昔替尼",
+          "cancer": "肾癌"
+        }
+      ]
+    },
+    {
+      "name": "PIK3CA(Exon9/20) 突变",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "吉非替尼，厄洛替尼",
+          "cancer": "肺癌"
+        },
+        {
+          "name": "西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌/鼻咽癌/头颈部肿瘤"
+        },
+        {
+          "name": "依维莫司",
+          "cancer": "肾癌/胰腺癌/乳腺癌"
+        },
+        {
+          "name": "坦罗莫司",
+          "cancer": "肾癌"
+        }
+      ]
+    },
+    {
+      "name": "RET(Exon10/11/13/14/15/16) 突变(胚系)",
+      "type": "血液",
+      "medicines": [
+        {
+          "name": "凡德他尼",
+          "cancer": "甲状腺癌"
+        },
+        {
+          "name": "卡博替尼",
+          "cancer": "甲状腺癌/肾癌"
+        }
+      ]
+    },
+    {
+      "name": "ROS1 融合",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "克唑替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "VEGFR1/2 表达水平",
+      "type": "组织/蜡块/石蜡切片",
+      "medicines": [
+        {
+          "name": "贝伐单抗",
+          "cancer": "卵巢癌/乳腺癌/宫颈癌/结直肠癌/非小细胞肺癌 /肾癌/恶性胶质瘤"
+        },
+        {
+          "name": "阿帕西普",
+          "cancer": "结直肠癌"
+        },
+        {
+          "name": "帕唑替尼，阿西替尼",
+          "cancer": "肾癌"
+        },
+        {
+          "name": "舒尼替尼",
+          "cancer": "肾癌/GIST/胰腺癌"
+        },
+        {
+          "name": "索拉非尼",
+          "cancer": "肾癌/肝癌/甲状腺癌"
+        },
+        {
+          "name": "阿帕替尼",
+          "cancer": "胃癌"
+        },
+        {
+          "name": "雷莫芦单抗",
+          "cancer": "肺癌/胃癌/结直肠癌/食管癌"
+        },
+        {
+          "name": "阿昔替尼",
+          "cancer": "肾癌"
+        }
+      ]
+    }
+  ],
+
+  "test_package": [
+    {
+      "name": "多癌肿血液样本133基因个体化诊疗基因检测",
+      "types": ["外周血2"]
+    },
+    {
+      "name": "多癌肿组织样本133基因个体化诊疗基因检测",
+      "types": ["组织", "外周血1"]
+    },
+    {
+      "name": "NSCLC 血液样本8基因个体化诊疗基因检测",
+      "types": ["外周血2"]
+    },
+    {
+      "name": "NSCLC 血液样本76基因个体化诊疗基因检测",
+      "types": ["外周血2"]
+    },
+    {
+      "name": "NSCLC 组织样本8基因个体化诊疗基因检测",
+      "types": ["组织"]
+    },
+    {
+      "name": "NSCLC 组织样本76基因个体化诊疗基因检测",
+      "types": ["组织", "外周血1"]
+    },
+    {
+      "name": "胃肠道肿瘤血液样本60基因个体化诊疗基因检测",
+      "types": ["外周血2"]
+    },
+    {
+      "name": "胃肠道肿瘤组织样本60基因个体化诊疗基因检测",
+      "types": ["组织", "外周血1"]
+    },
+    {
+      "name": "肿瘤化疗药物15基因检测",
+      "types": ["外周血1"]
+    }
+  ],
+
+  "tumor_prognosis": [
+    {
+      "name": "21基因",
+      "type": "石蜡切片/蜡块/组织"
+    },
+    {
+      "name": "新一代乳腺癌72基因检测",
+      "type": "石蜡切片/蜡块/组织"
+    }
+  ],
+
+  "test_period": {
+    "chemotherapy": "5个工作日",
+    "targeted_drug": "5个工作日",
+    "tumor_prognosis": "10个工作日",
+    "test_package": "10个工作日"
+  },
+
+  "test_gene": [
+    {
+      "name": "CTC 用药",
+      "gene": "MTOR，FRG1B，JAK2，0SBPL9，CDKN2A，PDGFRA，CBFB，SMAD4，LIG1，EPHA2，DMBT1，GNAQ，ANKRD36C，QKI，KIT，MAGl1，NARS，ACVR2A，CSF3R，MED12，TSC1，FAM21A，CDA，KOR，PTPRD，STK11， RGPD3，MPL，PCDHA1，RET，KMT2C，CYP19A1，APC，DZANK1， GNA11，GRB14，JAK1，MGAM，PTEN，FBXW7，CYP2C19，CSF1R， DTNA，MAP2K2，RFC3，NRAS，GATA3，FGFR2，TRIM48，CYP2C8， FGFR4，CACNA1C，JAK3，SLAMF1，DDR2，PIK3R1，HRAS，DNAH12， CYP2C9，RAC1，NCOR2，PIK3R2，SPAG9，ALK，UNC13A，CBL，D0CK3， CYP2D6，EGFR，SYNE1，GNAS，TCF7，SF3B1，CBWD1，KRAS，PTCH1， OPYD，MET，ADGRL3，ARAF，SORBS2，1DH1，PLEC，ERBB3，VHL， ERCC1，SMO，HSPD1，AR，ANKLE1，ERBB4，FCRL3，FLT3，FGFR1， ERCC2，BRAF，COPA，BTK，NDUFC2，ESR1，CDH1，AKT1，VEGFB， MDR1，EZH2，CLASP1，ROS1，BAX，RAF1，SGIP1，MEK1，KCNMA1， MTHFR，PIK3CA，AP4S1，TP53，NFASC，MYD88，C7orf57，1DH2，VEZT， MTRR，FGFR3，UNC13C，ERBB2，ANKRD30A，CTNNB1，PTPNS，PLCG2， MYH11，NQ01，UGT1A1，XRCC1"
+    },
+    {
+      "name": "21基因",
+      "gene": "GRB7，MKI67，GSTM1，ERBB2，MYBL2，BAG1，ESR1，CCNB1，ACTB，PGR，STK6，GAPDH，BCL2，CTSL2，RPLPO，BIRC5，CD68，TFRC，SCUBE2，MMP11，GUSB"
+    },
+    {
+      "name": "新一代乳腺癌72基因检测",
+      "gene": "CD27，CCR2，SH2D1A，PRKCB，PTPRC，CORO1A，1L2RG，CD52，GZMK，GZMA，CD3D，CD2，LCK，CCL5，CXCL9，APOBEC3G，HLA-DMA，GAPDH，GUSB，TFRC，MRPL19，PSMC4，SF3A1， FGFR4，HER2，GRB7，NDC80，TYMS，RRM2，CEP55，MELK，CDC20，KIF2C，CCNB1，PTTG1， STK15，UBE2C，EXO1，CENPF，MKI67，BIRC5，MYBL2，CDC6，ORC6，CCNE1，MMP11，CTSL2， CD68，MDM2，PGR，MAPT，BCL2，BAG1，SCUBE2，NAT1，SLC39A6，MLPH，FOXA1，ESR1， BLVRA，GSTM1，MYC，SFRP1，KRT5，KRT17，KRT14，MIA，FOXC1，CDH3，EGFR，PHGDH， ACTR3B"
+    },
+    {
+      "name": "NSCLC 组织样本8基因个体化诊疗基因检测",
+      "gene": "EGFR，ALK，KRAS，BRAF，ROS1，RET，HER2，MET"
+    },
+    {
+      "name":  "NSCLC 血液样本8基因个体化诊疗基因检测",
+      "gene": "EGFR，ALK，KRAS，BRAF，ROS1，RET，HER2，MET"
+    },
+    {
+      "name": "胃肠道肿瘤组织样本60基因个体化诊疗基因检测",
+      "gene": "KRAS，NRAS，BRAF，EGFR，PIK3CA，PTEN，HER2，MET，ALK，JAK2，KIT，PDGFRA，RET，ROS1，ACVR2A，ANKLE1，ANKRD30A，APC，BAX，CTNNB1， DNAH12，DOCK3，FBXW7，FGFR1，FGFR2，GNAS，GRB14，KCNMA1，LIG1， MYH11，NDUFC2，NFASC，PIK3R1，PLEC，PTCH1，QK1，RFC3，RGPD3， SLAMF1，SMAD4，SORBS2，SPAG9，TCF7，TP53，TRIM48，VEGFB，VEZT，VHL， MDR1，DYPD，GSTP1，TYMS，XRCC1，ERCC1，UGT1A1，UMPS，MTHFR，NQO1， PON1，VEGFA"
+    },
+    {
+      "name":  "胃肠道肿瘤血液样本60基因个体化诊疗基因检测",
+      "gene": "KRAS，NRAS，BRAF，EGFR，PIK3CA，PTEN，HER2，MET，ALK，JAK2，KIT，PDGFRA，RET，ROS1，ACVR2A，ANKLE1，ANKRD30A，APC，BAX，CTNNB1， DNAH12，DOCK3，FBXW7，FGFR1，FGFR2，GNAS，GRB14，KCNMA1，LIG1， MYH11，NDUFC2，NFASC，PIK3R1，PLEC，PTCH1，QK1，RFC3，RGPD3， SLAMF1，SMAD4，SORBS2，SPAG9，TCF7，TP53，TRIM48，VEGFB，VEZT，VHL， MDR1，DYPD，GSTP1，TYMS，XRCC1，ERCC1，UGT1A1，UMPS，MTHFR，NQO1， PON1，VEGFA"
+    },
+    {
+      "name": "NSCLC 组织样本76基因个体化诊疗基因检测",
+      "gene": "EGFR，PIK3CA，CSF3R，FGFR4，KDR，RAC1，TP53，MDR1，KRAS，JAK2，CTNNB1，FLT3，MAP2K2，RAF1，CDA，MTHFR，ALK，KIT，DDR2，GNA11， MEK1，SF381，CYP19A1，MTRR，ROS1，AKT1，EPHA2，GNAQ，MPL，SMAD4， CYP2C19，NQ01，RET，APC，ERBB3，GNAS，MTOR，SMO，CYP2C8，UGT1A1， MET，AR，ERBB4，HRAS，MYD88，STK11，CYP2C9，XRCC1，BRAF，ARAF，ESR1， 1DH1，NARS，TSC1，CYP2D6，ERBB2，BTK，EZH2，1DH2，PIK3R2，CDKN2A， DPYD，NRAS，CBL，FGFR2，JAK1，PLCG2，DMBT1，ERCC1，PDGFRA，CSF1R， FGFR3，JAK3，PTEN，FRG1B，ERCC2"
+    },
+    {
+      "name": "NSCLC 血液样本76基因个体化诊疗基因检测",
+      "gene": "EGFR，PIK3CA，CSF3R，FGFR4，KDR，RAC1，TP53，MDR1，KRAS，JAK2，CTNNB1，FLT3，MAP2K2，RAF1，CDA，MTHFR，ALK，KIT，DDR2，GNA11， MEK1，SF381，CYP19A1，MTRR，ROS1，AKT1，EPHA2，GNAQ，MPL，SMAD4， CYP2C19，NQ01，RET，APC，ERBB3，GNAS，MTOR，SMO，CYP2C8，UGT1A1， MET，AR，ERBB4，HRAS，MYD88，STK11，CYP2C9，XRCC1，BRAF，ARAF，ESR1， 1DH1，NARS，TSC1，CYP2D6，ERBB2，BTK，EZH2，1DH2，PIK3R2，CDKN2A， DPYD，NRAS，CBL，FGFR2，JAK1，PLCG2，DMBT1，ERCC1，PDGFRA，CSF1R， FGFR3，JAK3，PTEN，FRG1B，ERCC2"
+    },
+    {
+      "name": "多癌肿组织样本133基因个体化诊疗基因检测",
+      "gene": "MTOR，FRG1B，JAK2，0SBPL9，CDKN2A，PDGFRA，CBFB，SMAD4，LIG1，EPHA2，DMBT1，GNAQ，ANKRD36C，QKI，KIT，MAGl1，NARS，ACVR2A，CSF3R，MED12，TSC1，FAM21A，CDA，KOR，PTPRD，STK11，RGPD3，MPL， PCDHA1，RET，KMT2C，CYP19A1，APC，DZANK1，GNA11，GRB14，JAK1， MGAM，PTEN，FBXW7，CYP2C19，CSF1R，DTNA，MAP2K2，RFC3，NRAS， GATA3，FGFR2，TRIM48，CYP2C8，FGFR4，CACNA1C，JAK3，SLAMF1，DDR2， PIK3R1，HRAS，DNAH12，CYP2C9，RAC1，NCOR2，PIK3R2，SPAG9，ALK， UNC13A，CBL，D0CK3，CYP2D6，EGFR，SYNE1，GNAS，TCF7，SF3B1，CBWD1， KRAS，PTCH1，OPYD，MET，ADGRL3，ARAF，SORBS2，1DH1，PLEC，ERBB3， VHL，ERCC1，SMO，HSPD1，AR，ANKLE1，ERBB4，FCRL3，FLT3，FGFR1，ERCC2， BRAF，COPA，BTK，NDUFC2，ESR1，CDH1，AKT1，VEGFB，MDR1，EZH2， CLASP1，ROS1，BAX，RAF1，SGIP1，MEK1，KCNMA1，MTHFR，PIK3CA，AP4S1， TP53，NFASC，MYD88，C7orf57，1DH2，VEZT，MTRR，FGFR3，UNC13C，ERBB2， ANKRD30A，CTNNB1，PTPNS，PLCG2，MYH11，NQ01，UGT1A1，XRCC1"
+    },
+    {
+      "name": "多癌肿血液样本133基因个体化诊疗基因检测",
+      "gene": "MTOR，FRG1B，JAK2，0SBPL9，CDKN2A，PDGFRA，CBFB，SMAD4，LIG1，EPHA2，DMBT1，GNAQ，ANKRD36C，QKI，KIT，MAGl1，NARS，ACVR2A，CSF3R，MED12，TSC1，FAM21A，CDA，KOR，PTPRD，STK11，RGPD3，MPL， PCDHA1，RET，KMT2C，CYP19A1，APC，DZANK1，GNA11，GRB14，JAK1， MGAM，PTEN，FBXW7，CYP2C19，CSF1R，DTNA，MAP2K2，RFC3，NRAS， GATA3，FGFR2，TRIM48，CYP2C8，FGFR4，CACNA1C，JAK3，SLAMF1，DDR2， PIK3R1，HRAS，DNAH12，CYP2C9，RAC1，NCOR2，PIK3R2，SPAG9，ALK， UNC13A，CBL，D0CK3，CYP2D6，EGFR，SYNE1，GNAS，TCF7，SF3B1，CBWD1， KRAS，PTCH1，OPYD，MET，ADGRL3，ARAF，SORBS2，1DH1，PLEC，ERBB3， VHL，ERCC1，SMO，HSPD1，AR，ANKLE1，ERBB4，FCRL3，FLT3，FGFR1，ERCC2， BRAF，COPA，BTK，NDUFC2，ESR1，CDH1，AKT1，VEGFB，MDR1，EZH2， CLASP1，ROS1，BAX，RAF1，SGIP1，MEK1，KCNMA1，MTHFR，PIK3CA，AP4S1， TP53，NFASC，MYD88，C7orf57，1DH2，VEZT，MTRR，FGFR3，UNC13C，ERBB2， ANKRD30A，CTNNB1，PTPNS，PLCG2，MYH11，NQ01，UGT1A1，XRCC1"
+    },
+    {
+      "name": "肿瘤化疗药物15基因检测",
+      "gene": "XRCC1，ERCC1，ERCC2，MDR1(ABCB1)，CYP2C8，CYP2C9，CYP2C19，MTHFR， DPYD， CDA，MTRR，UGT1A1，CYP19A1，CYP2D6，NQO1"
+    }
+  ],
+
+  "remark_info":{
+    "ctc": [
+      {
+        "name": "外周血1",
+        "info": "1 管外周血用ACD管采集，8.5mL"
+      },
+      {
+        "name": "CTC 计数",
+        "info": "产品名称：循环肿瘤细胞计数"
+      },
+      {
+        "name": "CTC 用药",
+        "info": "产品名称：循环肿瘤细胞计数+单细胞测序个体化用药基因检测133基因"
+      }
+    ],
+    "test_package": [
+      {
+        "name": "外周血1",
+        "info": "1管外周血用EDTA管采集，2mL"
+      },
+      {
+        "name": "外周血2",
+        "info": "2管外周血用Streck管采集，共 15mL"
+      },
+      {
+        "name": "组织",
+        "info": "组织样本类型包括：新鲜组织样本(活检、手术组织)、石蜡块、白片等"
+      }
+    ]
+  }
+
+}
