@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" href="../../plugins/jquery-weui/dist/lib/weui.css">
-    <link rel="stylesheet" href="../../plugins/jquery-weui/dist/css/jquery-weui.css">
-    <link rel="stylesheet" href="../../plugins/jquery-weui/dist/demos/css/demos.css">
-    <link rel="stylesheet" href="../../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/lib/weui.css">
+    <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/css/jquery-weui.css">
+    <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/demos/css/demos.css">
+    <link rel="stylesheet" href="../assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/pages.css"/>
 
   </head>
@@ -19,7 +19,7 @@
 <header class='demos-header'>
   <h1 class="demos-title">检测套餐</h1>
 </header>
-<div class="page__bd" id="page__bd">
+<div v-cloak class="page__bd" id="page__bd">
   <div class="remark-info">检测周期：{{testPeriod}}</div>
   <div class="weui-panel weui-panel_access" v-for="item in content">
     <div class="weui-panel__bd">
@@ -35,17 +35,17 @@
       </div>
     </div>
     <div class="weui-panel__ft" v-if="item.testGene != 'none'">
-      <a v-bind:href="'gene_test_gene.html?name=' + item.name" class="weui-cell weui-cell_access weui-cell_link">
+      <a v-bind:href="'test_gene.html?name=' + item.name" class="weui-cell weui-cell_access weui-cell_link">
         <div class="weui-cell__bd">检测基因</div>
         <span class="weui-cell__ft"></span>
       </a>
     </div>
   </div>
 </div>
-<script src="../../plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
-<script src="../../plugins/jquery-weui/dist/lib/fastclick.js"></script>
-<script src="../../plugins/vue/dist/vue.min.js"></script>
-<script src="../assets/js/gene_test_package.js"></script>
-<script src="../../plugins/jquery-weui/dist/js/jquery-weui.js"></script>
+<script src="../assets/plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
+<script src="../assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
+<script src="../assets/plugins/vue/dist/vue.min.js"></script>
+<script src="../assets/js/test_package.js"></script>
+<script src="../assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>
 </body>
 </html>

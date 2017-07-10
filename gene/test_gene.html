@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+  <title>衡道医学</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/lib/weui.css">
+  <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/css/jquery-weui.css">
+  <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/demos/css/demos.css">
+  <link rel="stylesheet" href="../assets/css/pages.css"/>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body ontouchstart>
+<header class='demos-header'>
+  <h1 class="demos-title">检测基因</h1>
+</header>
+<div v-cloak class="page__bd" id="page__bd">
+  <div class="weui-panel weui-panel_access">
+    <div class="weui-panel__bd">
+      <div class="weui-media-box weui-media-box_text">
+        <h4 class="weui-media-box__title">{{name}}</h4>
+        <div class="weui-row">
+          <div class="weui-media-box__desc">
+            {{content}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="weui-panel__ft">
+      <a href="#" onclick="javascript: window.history.go(-1);return false;" class="weui-cell weui-cell_access weui-cell_link">
+        <div class="weui-cell__bd">返回上级</div>
+      </a>
+    </div>
+  </div>
+</div>
+<script src="../assets/plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
+<script src="../assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
+<script src="../assets/plugins/vue/dist/vue.min.js"></script>
+<script src="../assets/js/common.js"></script>
+<script src="../assets/js/test_gene.js"></script>
+<script src="../assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>
+
+</body>
+</html>

@@ -12,8 +12,8 @@
     -webkit-box-orient: horizontal;
 }
 
-.font-size11 {
-    font-size: 11px;
+.font-size12 {
+    font-size: 12px;
 }
 
 .with-padding-left10 {
@@ -21,7 +21,7 @@
 }
 
 .with-padding-left70 {
-    padding-left: 70px;
+    padding-left: 73px;
 }
 
 .demos-title {
@@ -52,7 +52,7 @@
 
 .remark-info {
     color: #999999;
-    font-size: 11px;
+    font-size: 12px;
     text-align: right;
     margin: 5px;
 }
@@ -78,8 +78,8 @@
     width: 100%;
 }
 
-.width_65_px {
-    width: 65px;
+.width_67_px {
+    width: 69px;
 }
 
 .width_70_percent {
@@ -88,4 +88,24 @@
 
 .vertical-top {
     vertical-align: top;
+}
+
+.line-height10 {
+    line-height: 10px;
+}
+
+.with-margin-bottom8 {
+    margin-bottom: 8px;
+}
+
+.with-padding-bottom7 {
+    padding-bottom: 7px;
+}
+
+.without-padding-bottom {
+    padding-bottom: 0px;
+}
+
+[v-cloak] {
+    display: none;
 }
