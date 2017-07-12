@@ -41,13 +41,17 @@
 
     height:16px;
 
-    line-height:16px;
-
     font-weight:normal;
+
+    font-size: 13px;
 
     vertical-align:text-bottom;
 
-    font-size:8px;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .remark-info {
@@ -70,36 +74,8 @@
     display: inline-block;
 }
 
-.width_60_percent {
-    width: 60%;
-}
-
-.width_100_percent {
-    width: 100%;
-}
-
-.width_67_px {
-    width: 69px;
-}
-
-.width_70_percent {
-    width: 70%;
-}
-
 .vertical-top {
     vertical-align: top;
-}
-
-.line-height10 {
-    line-height: 10px;
-}
-
-.with-margin-bottom8 {
-    margin-bottom: 8px;
-}
-
-.with-padding-bottom7 {
-    padding-bottom: 7px;
 }
 
 .without-padding-bottom {
@@ -161,7 +137,7 @@
 }
 
 .item_list dt {
-    width: 65px;
+    width: 70px;
     font-weight: normal;
     color: #999999;
     font-size: 13px;
@@ -171,20 +147,24 @@
     float: left;
     overflow: hidden;
     clear: left;
-    text-align: right;
+    text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-bottom: 3px;
 }
 
 .item_list dd {
     font-weight: normal;
     color: #999999;
     font-size: 13px;
-    margin-left: 65px;
+    margin-left: 70px;
     text-overflow: clip;
+    margin-bottom: 3px;
 }
 
 .couple_item dd p {
-    text-indent: 13px;
+    padding-left: 13px;
     font-size: 12px;
+    margin-bottom: 0;
+    text-align: left;
 }
