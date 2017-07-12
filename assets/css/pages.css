@@ -32,7 +32,7 @@
     height: 100%;
 }
 
-.with-sup div sup {
+.with-sup sup {
     text-indent:0;
 
     background:none;
@@ -167,6 +167,15 @@
     font-size: 13px;
 }
 
+.dl-horizontal dt {
+    float: left;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .item_list dd {
     font-weight: normal;
     color: #999999;
@@ -175,8 +184,7 @@
     text-overflow: clip;
 }
 
-.item_list dd ul li {
-    list-style-type: none;
+.couple_item dd p {
+    text-indent: 13px;
     font-size: 12px;
-    padding-left: 10px;
 }

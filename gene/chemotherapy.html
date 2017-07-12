@@ -24,14 +24,14 @@
     <div class="weui-panel__bd">
       <div class="weui-media-box weui-media-box_text">
         <h4 class="weui-media-box__title">{{item.name}}</h4>
-        <div>
-          <div class="weui-media-box__desc inline">样本类型：</div>
-          <div class="weui-media-box__desc inline">{{item.type}}</div>
-        </div>
-        <div>
-          <div class="weui-media-box__desc inline">对应药物：</div>
-          <div class="weui-media-box__desc inline">{{item.medicine}}</div>
-        </div>
+        <dl class="dl-horizontal item_list">
+          <dt>样本类型：</dt>
+          <dd>{{item.type}}</dd>
+        </dl>
+        <dl class="dl-horizontal item_list">
+          <dt>对应药物：</dt>
+          <dd>{{item.medicine}}</dd>
+        </dl>
       </div>
     </div>
   </div>

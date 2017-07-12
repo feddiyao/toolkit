@@ -25,13 +25,15 @@
     <div class="weui-panel__bd">
       <div class="weui-media-box weui-media-box_text">
         <h4 class="weui-media-box__title">{{item.name}}</h4>
-        <div class="weui-media-box__desc inline">样本类型：</div>
-        <div class="weui-media-box__desc with-sup inline">
-          <span class="show-inform" v-bind:name="type" v-for="(type,index) in item.types">
-            {{type}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup>
+        <dl class="dl-horizontal item_list">
+          <dt>样本类型：</dt>
+          <dd class="with-sup">
+            <span class="show-inform" v-bind:name="type" v-for="(type,index) in item.types">
+               {{type}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup>
             <span v-if="item.types.length > 0 && index != item.types.length - 1">+</span>
-          </span>
-        </div>
+            </span>
+          </dd>
+        </dl>
       </div>
     </div>
     <div class="weui-panel__ft" v-if="item.testGene != 'none'">

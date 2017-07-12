@@ -26,16 +26,16 @@
         <h4 class="weui-media-box__title show-inform" v-bind:name="item.name">
           {{item.name}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup>
         </h4>
-        <div>
-          <div class="weui-media-box__desc inline">样本类型：</div>
-          <div class="weui-media-box__desc with-sup show-inform inline" v-bind:name="item.type">
+        <dl class="dl-horizontal item_list">
+          <dt>样本类型：</dt>
+          <dd class="with-sup show-inform" v-bind:name="item.type">
             <span>{{item.type}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup></span>
-          </div>
-        </div>
-        <div>
-          <div class="weui-media-box__desc inline">检测周期：</div>
-          <div class="weui-media-box__desc inline">{{item.testPeriod}}</div>
-        </div>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal item_list">
+          <dt>检测周期：</dt>
+          <dd>{{item.testPeriod}}</dd>
+        </dl>
       </div>
       <div class="weui-panel__ft" v-if="item.testGene != 'none'">
         <a v-bind:href="'test_gene.html?name=' + item.name" class="weui-cell weui-cell_access weui-cell_link">
