@@ -11,41 +11,42 @@
     <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/css/jquery-weui.css">
     <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/demos/css/demos.css">
     <link rel="stylesheet" href="../assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/pages.css"/>
-
   </head>
 </head>
 <body ontouchstart>
 <header class='demos-header'>
-  <h1 class="demos-title">检测套餐</h1>
+  <h1 class="demos-title">Q&A</h1>
 </header>
 <div v-cloak class="page__bd" id="page__bd">
-  <div class="remark-info">检测周期：{{testPeriod}}</div>
-  <div class="weui-panel weui-panel_access" v-for="item in content">
-    <div class="weui-panel__bd">
-      <div class="weui-media-box weui-media-box_text">
-        <h4 class="weui-media-box__title">{{item.name}}</h4>
-        <div class="weui-media-box__desc inline">样本类型：</div>
-        <div class="weui-media-box__desc with-sup inline">
-          <span class="show-inform" v-bind:name="type" v-for="(type,index) in item.types">
-            {{type}}<sup>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></sup>
-            <span v-if="item.types.length > 0 && index != item.types.length - 1">+</span>
-          </span>
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default q_panel"  v-for="(item, index) in content" v-bind:id="'question' + index">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h5>
+          <a role="button" data-toggle="collapse" data-parent="#accordion" v-bind:href="'#answer' + index"
+             aria-expanded="true"
+              aria-controls="collapseOne">
+            {{item.question}}
+          </a>
+        </h5>
+      </div>
+      <div v-bind:id="'answer' + index" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body" v-for="answer in item.answer">
+          {{answer}}
+        </div>
+        <div class="panel-body" v-if="item.remark">
+          {{item.remark}}
         </div>
       </div>
-    </div>
-    <div class="weui-panel__ft" v-if="item.testGene != 'none'">
-      <a v-bind:href="'test_gene.html?name=' + item.name" class="weui-cell weui-cell_access weui-cell_link">
-        <div class="weui-cell__bd">检测基因</div>
-        <span class="weui-cell__ft"></span>
-      </a>
     </div>
   </div>
 </div>
 <script src="../assets/plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
 <script src="../assets/plugins/vue/dist/vue.min.js"></script>
-<script src="../assets/js/test_package.js"></script>
+<script src="../assets/js/qa.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>
 </body>
 </html>

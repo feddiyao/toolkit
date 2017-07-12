@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
-    <title>衡道医学</title>
+    <title>衡道医学销售工具箱</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/lib/weui.css">
     <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/css/jquery-weui.css">
     <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/demos/css/demos.css">
-    <link rel="stylesheet" href="..//assets/css/pages.css"/>
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/pages.css"/>
 </head>
 <body ontouchstart>
 <header class='demos-header'>
@@ -25,6 +26,17 @@
           <div class="weui-media-box__desc inline">样本类型：&nbsp;</div>
           <div class="weui-media-box__desc inline">{{item.type}}</div>
         </div>
+          <!--<dl class="dl-horizontal item_list">-->
+            <!--<dt>对应药物：</dt>-->
+            <!--<dd v-for="(medicine,index) in item.medicines">-->
+              <!--{{medicine.name}}-->
+              <!--<ul>-->
+                <!--<li>-->
+                  <!--{{medicine.cancer}}-->
+                <!--</li>-->
+              <!--</ul>-->
+            <!--</dd>-->
+          <!--</dl>-->
         <div class="width_100_percent">
           <div class="weui-media-box__desc inline-block width_67_px vertical-top">对应药物：</div>
           <div v-for="(medicine,index) in item.medicines"
@@ -47,6 +59,7 @@
 </div>
 <script src="../assets/plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="../assets/plugins/vue/dist/vue.min.js"></script>
 <script src="../assets/js/targeted_drug.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>

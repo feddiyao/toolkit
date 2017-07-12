@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>衡道医学销售工具箱</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" href="assets/plugins/jquery-weui/dist/lib/weui.min.css">
+  <link rel="stylesheet" href="assets/plugins/jquery-weui/dist/css/jquery-weui.css">
+  <link rel="stylesheet" href="assets/plugins/jquery-weui/dist/demos/css/demos.css">
+  <link rel="stylesheet" href="assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/pages.css"/>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<script>
+  var sign;
+  function jsonpCallback(data) {
+    sign = data.sign;
+  }
+</script>
+<script>
+  var script = document.createElement('script');
+  var requestUrl = encodeURIComponent(window.location.href);
+  script.src = 'https://www.histomed.com/getSign?appId=wx3d217570b080c004&url=' + requestUrl + '&callback=jsonpCallback';
+  document.write(script.outerHTML);
+</script>
+<body ontouchstart>
+
+<header class='demos-header'>
+  <h1 class="demos-title">销售工具箱</h1>
+</header>
+
+<div class="page__bd" id="page__bd" style="height: 80%">
+  <a href="gene/test_item.html">
+    <div class="icon_index">
+      <img class="icon_image icon_small" src="assets/images/catalogue.png">
+      <h4>分子病理项目目录</h4>
+    </div>
+  </a>
+  <a href="QA/qa.html">
+    <div class="icon_index">
+      <img class="icon_image" src="assets/images/question.png">
+      <h4>Q&A</h4>
+    </div>
+  </a>
+</div>
+
+<script src="assets/js/common.js"></script>
+<script src="assets/plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
+<script src="assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
+<script src="assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>
+
+</body>
+
+</html>

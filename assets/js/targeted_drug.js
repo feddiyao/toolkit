@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(document).ready(function () {
-    $.getJSON("../assets/data/data.json",function(json){
+    $.getJSON("../assets/data/data_gene.json",function(json){
       var targeted_drug = new Vue({
         el: '#page__bd',
         data: {
