@@ -6,13 +6,13 @@ $(document).ready(function () {
     FastClick.attach(document.body);
   });
 
-  $.getJSON("../assets/data/data_gene.json",function(json){
+  $.getJSON("../assets/data/chemotherapy.json",function(json){
     var gene_chemotherapy = new Vue({
       el: '#page__bd',
       data: {
         content: json.chemotherapy,
-        testPeriod: json.test_period.chemotherapy
+        testPeriod: json.test_period
       }
     });
   });
-})
+});

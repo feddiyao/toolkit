@@ -1,0 +1,216 @@
+{
+  "targeted_drug": [
+    {
+      "name": "BRAF(V600E) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌"
+        },
+        {
+          "name": "威罗替尼，达拉非尼，曲美替尼",
+          "cancer": "黑色素瘤"
+        }
+      ]
+    },
+    {
+      "name": "BRCA1/2 突变（胚系）",
+      "type": "血液",
+      "medicines": [
+        {
+          "name": "奥拉帕尼",
+          "cancer": "卵巢癌"
+        }
+      ]
+    },
+    {
+      "name": "EGFR 表达水平",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+        "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+        "cancer": "结直肠癌"
+        }
+      ]
+    },
+    {
+      "name": "EGFR(Exon18/19/20/21) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "吉非替尼，厄洛替尼，埃克替尼，阿法替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "EGFR(T790M) 突变",
+      "type": "组织／蜡块／石蜡切片／血液",
+      "medicines": [
+        {
+          "name": "AZD9291",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "EML4-ALK 融合",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "色瑞替尼，克唑替尼，艾乐替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "HER2 染色体扩增",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "曲妥珠单抗，帕妥珠单抗，拉帕替尼，T-DM1",
+          "cancer": "乳腺癌"
+        }
+      ]
+    },
+    {
+      "name": "KIT(Exon9/11/13/17) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "索拉非尼，舒尼替尼",
+          "cancer": "肾癌／肝癌"
+        }
+      ]
+    },
+    {
+      "name": "KRAS(Exon2/3/4) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "吉非替尼，厄洛替尼，埃克替尼，阿法替尼",
+          "cancer": "肺癌"
+        },
+        {
+          "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌"
+        }
+      ]
+    },
+    {
+      "name": "MET 表达水平",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "克唑替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "NRAS(Exon2/3/4) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "尼妥珠单抗，西妥昔单抗，帕尼单抗",
+          "cancer": "结直肠癌"
+        }
+      ]
+    },
+    {
+      "name": "PDGFRα(Exon12/18) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "伊马替尼",
+          "cancer": "胃肠道间质瘤 "
+        }
+      ]
+    },
+    {
+      "name": "PDGFRβ 表达水平",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "舒尼替尼，索拉非尼",
+          "cancer": "肾癌／肝癌 "
+        }
+      ]
+    },
+    {
+      "name": "PIK3CA(Exon9/20) 突变",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "曲妥珠单抗，帕妥珠单抗，拉帕替尼，T-DM1",
+          "cancer": "乳腺癌"
+        }
+      ]
+    },
+    {
+      "name": "RET 融合",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "卡博替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "RET(M918T) 突变",
+      "type": "组织／蜡块／石蜡切片／血液",
+      "medicines": [
+        {
+          "name": "凡德他尼",
+          "cancer": "甲状腺癌"
+        }
+      ]
+    },
+    {
+      "name": "ROS1 融合",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "克唑替尼",
+          "cancer": "肺癌"
+        }
+      ]
+    },
+    {
+      "name": "VEGFR1/2 表达水平",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "贝伐单抗",
+          "cancer": "卵巢癌／乳腺癌／宫颈癌／结直肠癌／非小细胞肺癌／肾癌／恶性胶质瘤"
+        },
+        {
+          "name": "舒尼替尼，索拉非尼",
+          "cancer": "肾癌／肝癌"
+        },
+        {
+          "name": "帕唑替尼，阿西替尼",
+          "cancer": "肾癌"
+        }
+      ]
+    },
+    {
+      "name": "VEGFR2 表达水平",
+      "type": "组织／蜡块／石蜡切片",
+      "medicines": [
+        {
+          "name": "阿帕替尼",
+          "cancer": "胃癌"
+        },
+        {
+          "name": "雷莫芦单抗",
+          "cancer": "肺癌／胃癌／结直肠癌／食管癌"
+        }
+      ]
+    }
+  ],
+
+  "test_period": "5个工作日"
+}

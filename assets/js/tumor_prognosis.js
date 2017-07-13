@@ -6,7 +6,7 @@ $(document).ready(function () {
     FastClick.attach(document.body);
   });
 
-  $.getJSON("../assets/data/data_gene.json",function(json) {
+  $.getJSON("../assets/data/gene.json",function(json) {
     var tumor_prognosis = new Vue({
       el: '#page__bd',
       data: {

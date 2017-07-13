@@ -6,7 +6,7 @@ $(document).ready(function () {
     FastClick.attach(document.body);
   });
 
-  $.getJSON("../assets/data/data_gene.json",function(data){
+  $.getJSON("../assets/data/gene.json",function(data){
     var ctc = new Vue({
       el: '#page__bd',
       data: {

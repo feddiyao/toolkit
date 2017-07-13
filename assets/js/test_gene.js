@@ -6,7 +6,7 @@ $(document).ready(function () {
     FastClick.attach(document.body);
   });
 
-  $.getJSON("../assets/data/data_gene.json",function(json){
+  $.getJSON("../assets/data/gene.json",function(json){
     var geneData = json.test_gene;
     var name = getQueryString('name')
     var content, type;
