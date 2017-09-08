@@ -12,70 +12,57 @@
   <link rel="stylesheet" href="../assets/css/pages.css"/>
   <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 </head>
-<script>
-  var sign;
-  function jsonpCallback(data) {
-    sign = data.sign;
-  }
-</script>
-<script>
-  var script = document.createElement('script');
-  var requestUrl = encodeURIComponent(window.location.href);
-  script.src = 'https://www.histomed.com/getSign?appId=wx3d217570b080c004&url=' + requestUrl + '&callback=jsonpCallback';
-  document.write(script.outerHTML);
-</script>
 <body ontouchstart>
 
 <header class='demos-header'>
-  <h1 class="demos-title">分子病理项目目录</h1>
+  <h1 class="demos-title">运营对接流程</h1>
 </header>
 
 <div class="weui-grids">
-  <a href="chemotherapy.html" class="weui-grid js_grid">
+  <a href="process.html?province=shanghai&type=consultation" class="weui-grid js_grid">
     <div class="weui-grid__icon">
       <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_cell.png" alt="">
     </div>
     <p class="weui-grid__label">
-      化疗药物<br>检测
+      上海会诊<br>流程
     </p>
   </a>
-  <a href="targeted_drug.html" class="weui-grid js_grid">
+  <a href="process.html?province=beijing&type=consultation" class="weui-grid js_grid">
     <div class="weui-grid__icon">
       <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_cell.png" alt="">
     </div>
     <p class="weui-grid__label">
-      靶向药物<br>检测
+      北京会诊<br>流程
     </p>
   </a>
-  <a href="ctc.html" class="weui-grid js_grid">
+  <a href="process.html?type=gene" class="weui-grid js_grid">
     <div class="weui-grid__icon">
       <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_cell.png" alt="">
     </div>
     <p class="weui-grid__label">
-      循环肿瘤细胞<br>检测
+      分子检测<br>流程
     </p>
   </a>
-  <a href="tumor_prognosis.html" class="weui-grid js_grid">
+  <a href="material.html?type=consultation" class="weui-grid js_grid">
     <div class="weui-grid__icon">
-      <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_cell.png" alt="">
-    </div>
-    <p class="weui-grid__label">
-      乳腺癌表达<br>及预后检测
-    </p>
-  </a>
-  <a href="test_package.html" class="weui-grid js_grid">
-    <div class="weui-grid__icon">
-      <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_cell.png" alt="">
+      <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_article.png" alt="">
     </div>
     <p class="weui-grid__label with-line-height">
-      检测套餐
+      会诊材料
+    </p>
+  </a>
+  <a href="material.html?type=gene" class="weui-grid js_grid">
+    <div class="weui-grid__icon">
+      <img src="../assets/plugins/jquery-weui/dist/images/icon_nav_article.png" alt="">
+    </div>
+    <p class="weui-grid__label">
+      分子检测<br>材料
     </p>
   </a>
 </div>
 <script src="../assets/js/common.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/lib/jquery-2.1.4.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
-<script src="../assets/js/test_item.js"></script>
 <script src="../assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>
 
 </body>

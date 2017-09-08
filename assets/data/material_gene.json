@@ -1,0 +1,38 @@
+{
+ "material_gene": [
+    {
+      "title": "原医院病理报告",
+      "necessary": true,
+      "contents": [
+        "病理号与HE染色片号、蜡块号必需相符"
+      ],
+      "remark": "必需提供，实验结束后返还"
+    },
+   {
+     "title": "HE染色片",
+     "necessary": true,
+     "contents": [
+       "每个蜡块至少需要提供一张HE染色片"
+     ],
+     "remark": "必需提供，实验结束后返还"
+   },
+   {
+     "title": "白片、蜡块、血液或胸腹水",
+     "necessary": true,
+     "contents": [
+       "若只提供白片，需10张(1*1cm);血液及胸水按要求包装"
+     ],
+     "remark": "必需提供，实验结束后只返还蜡块"
+   },
+   {
+     "title": "外周血用Streck管或EDTA抗凝管",
+     "necessary": false,
+     "contents": [
+       "Streck管:2管/人，7.5ml/管，立即轻轻颠倒混匀8次，缓冲材料包好，15-30摄氏度，直立，泡沫箱运输(一周内)",
+       "EDTA抗凝管:2管/人，2ml/管，立即轻轻颠倒混匀8次，缓冲材料包好，加冰袋(0-4摄氏度)，直立，泡沫箱运输(一周内)"
+     ],
+     "remark": "实验结束后只返还蜡块"
+   }
+  ],
+  "remark": "标注<span class='font-red'>*</span>号为必需提供材料"
+}

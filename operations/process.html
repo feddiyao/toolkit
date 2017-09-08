@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>衡道医学销售工具箱</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/lib/weui.css">
+  <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/css/jquery-weui.css">
+  <link rel="stylesheet" href="../assets/plugins/jquery-weui/dist/demos/css/demos.css">
+  <link rel="stylesheet" href="../assets/plugins/Gallery-2.25.2/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="../assets/css/pages.css"/>
+</head>
+<body ontouchstart>
+  <header v-cloak class='demos-header' id="header">
+    <h1 class="demos-title">{{title}}</h1>
+  </header>
+  <div v-cloak class="weui-panel__bd" id="page__bd">
+    <div class="weui-media-box weui-media-box_text" v-for="(step,index) in steps">
+      <h4 class="weui-media-box__title">{{index + 1}}、{{step.title}}</h4>
+      <ul class="operation_content">
+        <li v-for="content in step.contents" v-html="content"></li>
+      </ul>
+      <ul class="weui-media-box__info">
+        <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">{{step.operator}}</li>
+      </ul>
+    </div>
+  </div>
+  <div id="gallery" class="nonedisplay">
+    <!--<a href="%example.jpg%">
+       <img src="%example.jpg%">
+       </a>-->
+  </div>
+  <div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+  </div>
+  <script src="../assets/plugins/jQuery/jQuery-1.11.2.min.js"></script>
+  <script src="../assets/plugins/Gallery-2.25.2/js/blueimp-gallery.min.js"></script>
+  <script src="../assets/plugins/jquery-weui/dist/lib/fastclick.js"></script>
+  <script src="../assets/plugins/vue/dist/vue.min.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/operations/process.js"></script>
+  <script src="../assets/plugins/jquery-weui/dist/js/jquery-weui.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+  "process_shanghai": [
+    {
+      "title": "填写《病理会诊申请单》",
+      "contents": [
+        "会诊机构及专家信息由医生填写，患方需在申请单上签名",
+        "填写格式参照<a class='show_gallery' href='javascript:;' imgName='consultation_application.jpg'>《病理会诊申请单》</a>样表，填写内容必需真实有效，清晰可辨"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "核对样本及材料",
+      "contents": [
+        "当地病理报告病理号必需与切片、蜡块一致",
+        "切片、蜡块等资料病理号及数量做好台帐登记，以便退还时核对",
+        "病理号、预付费金额填写在<a class='show_gallery' href='javascript:;' imgName='consultation_application.jpg'>《病理会诊申请单》</a>顶部空白处"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "收取预收费用并开具收据",
+      "contents": [
+        "付款方式：刷卡、支付宝(可扫描<a class='show_gallery' href='javascript:;' imgName='alipay.png'>支付宝二维码</a>)或由销售人员收取现金后自行代刷",
+        "开具收据并将<a class='show_gallery' href='javascript:;' imgName='receipt.jpg'>客户联</a>交予患者，同时提醒患者保存好，会诊报告需凭<a class='show_gallery' href='javascript:;' imgName='receipt.jpg'>客户联</a>领取"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "将病理片和资料装入运输盒",
+      "contents": [
+        "石蜡切片必需先用餐巾纸包好，再插入切片盒，蜡块用餐巾纸包好，并用餐巾纸将空余部分塞满，放入运输盒内<a class='show_gallery' href='javascript:;' imgName='package1.jpg;package2.jpg'>打包</a>。"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "拍照发至微信工作群",
+      "contents": [
+        "<a class='show_gallery' href='javascript:;' imgName='consultation_application.jpg'>申请单</a>、病理报告、<a class='show_gallery' href='javascript:;' imgName='express.jpg'>快递单号</a>"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "发往上海运营中心",
+      "contents": [
+        "物流：顺丰快递",
+        "联系电话：95338",
+        "支付方式：收方付",
+        "地址：上海徐汇肇嘉浜路789号17楼A0室",
+        "单位：上海观然疗科技有限公司",
+        "收件人：刘钢",
+        "联系电话：13918099978"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "病理会诊出具报告",
+      "contents": [
+        "复旦病理中心：约5至10个工作日(不含物流时间)",
+        "肿瘤医院等：约10-20个工作日（不含物流时间）"
+      ],
+      "operator": "运营中心"
+    },
+    {
+      "title": "电子报告上传系统",
+      "contents": [
+        "系统网址：<a href='https://www.histomed.com/pms'>https://www.histomed.com/pms</a>",
+        "帐号：销售人员手机号",
+        "密码：111111（初始密码，请自行修改）"
+      ],
+      "operator": "运营中心"
+    },
+    {
+      "title": "结算费用",
+      "contents": [
+        "对于刷卡支付的患者，财务将多余费用直接返还至患者帐户",
+        "对于支付宝或现金支付的患者，财务将多余费用返还至销售人员帐户，在患者领取报告时返还"
+      ],
+      "operator": "运营中心"
+    },
+    {
+      "title": "领取报告",
+      "contents": [
+        "收到病理会诊报告，联系患者领取病理会诊报告、发票、收回<a class='show_gallery' href='javascript:;' imgName='receipt.jpg'>客户联</a>并结清费用（多退少补）",
+        "预付款不够的患者领取病理会诊报告前与患者结清费用不足部分",
+        "报告出具当天，发票及剩余样本一同寄回"
+      ],
+      "operator": "销售人员"
+    },
+    {
+      "title": "补款",
+      "contents": [
+        "补齐预付款不足部分并通知运营中心已补款"
+      ],
+      "operator": "销售人员"
+    }
+  ]
+}
